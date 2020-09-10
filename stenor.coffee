@@ -1,7 +1,7 @@
 # Tenor search top result
 #
 #
-api_key = process.env.TENOR_API_KEY
+api_key = process.env.HUBOT_TENOR_API_KEY
 filter = 'low'
 
 getSearchTenor = (msg, terms) ->
