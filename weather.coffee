@@ -1,7 +1,7 @@
 # uses google geocode and openweathermap to get weather for location
 
-weather_api_key = process.env.WEATHER_API_KEY
-google_api_key = process.env.GOOGLE_API_KEY
+weather_api_key = process.env.HUBOT_WEATHER_API_KEY
+google_api_key = process.env.HUBOT_GOOGLE_API_KEY
 
 module.exports = (robot) ->
   robot.hear /^weather (.*)/i, (msg) ->

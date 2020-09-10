@@ -1,6 +1,6 @@
 # uses google to geocode a location
 
-api_key = process.env.GOOGLE_API_KEY
+api_key = process.env.HUBOT_GOOGLE_API_KEY
 
 
 getGeocode = (msg, terms) ->
